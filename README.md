@@ -1,5 +1,5 @@
 # Q_band_ZB
-Compute the electronic band structure of Zinc Blende semiconductors.
+Computes the electronic band structure of Zinc Blende semiconductors.
 
 3 models are available and can be switched ON/OFF:
 
