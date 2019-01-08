@@ -7,4 +7,4 @@ Computes the electronic band structure of Zinc Blende semiconductors.
 
 -> Linear Combination of Atomic Orbitals (LCAO) or Tight Binding (sp3s*)
 
--> k.p 8band, using the Dresselhaus, Kip and Kittel (DKK) notation and the Luttinger parameters (EP, F, g1, g2, g3)
+-> k.p 8bands, using the Dresselhaus, Kip and Kittel (DKK) notation and the Luttinger parameters (EP, F, g1, g2, g3)
