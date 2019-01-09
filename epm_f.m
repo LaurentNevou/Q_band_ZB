@@ -82,9 +82,9 @@ for i=1:length(k(:,1))
     
     H = Gkdiag + HV ;
     % Take care... 
-	% (sparse+eig) does not work on Matlab BUT does work with Octave
-	% (eig) works on Matlab AND Octave
-	% (sparse+eigs) makes weird band diagram
+    % (sparse+eig) does not work on Matlab BUT does work with Octave
+    % (eig) works on Matlab AND Octave
+    % (sparse+eigs) eigen values are not ordered => make weird band diagram...
     % H=sparse(H);
     [Vk,Emat]=eig(H);
     E(:,i)=diag(Emat);  
